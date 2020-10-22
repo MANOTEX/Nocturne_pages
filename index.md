@@ -1,37 +1,142 @@
-## Nocturne Self-Bot
+## Nocturne Self-Bot Commands:
 
-You can use the [editor on GitHub](https://github.com/MANOTEX/Nocturne_pages/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 ```markdown
-Syntax highlighted code block
+General Commands 
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+Command	Description
+help	Displays this help menu
+av (user)	Displays the profile picture of the mentioned user
+revav (user)	Reverse avatar the mentioned user profile picture
+whois (user)	Displays discord information of the mentioned user
+role-hexcode (role)	Displays the hexcode of the specified role
+guildicon	Display guild icon
+roleinfo (role)	Display some info about the specified role
+cls	Clears your console fully
+logout	Logs you out the selfbot
+dm (user) (message)	Sends a message to the specified user
+everyone	Glitched way to mention everyone in a server
+empty	Sends a empty message
+get-hwid	Prints your hwid in the console
+secret (message)	Returns the message but hidden ||hidden||
+bold (message)	Returns the message but **bold**
+unflip	Sends: ┬─┬ ノ( ゜-゜ノ)
+tableflip	Sends: (╯°□°）╯︵ ┻━┻
+lenny	Sends: ( ͡° ͜ʖ ͡°)
+shrug	Sends: ¯\_(ツ)_/¯
+reverse (message)	Reverses ur message
+ascii (message)	Makes your message ascii/fancy
+read	Marks all your messages as read, except DM
+group-leaver	Leaves all the groups you're in
+purge (amount)	Deletes your messages based on the amount you specify	
+uptime	Shows how long the selfbot has been online and working
+hastebin (message)	Saves your text/code to hastebin
+first-message	Get the first message in that channel
+abc	Sends the whole abecedary in a single message
+devowel (message)	Devowels your message
+1337-speak (message)	Translates your message to 1337 language
+combine (name1) (name2)	Combines the two names together
+pingweb (website)	Pings a website in order to check if its working or not (ie: !pingweb https://google.com)
+spam (amount) (message)	Sends the specified message that amount of times
+clear	Spam the chat with invisible messages
+tts (message)	Send that message in .wav format, like an audio
+upper (message)	Make your message CAPS
+lmgtfy (message)	Use lmgtfy search engine to look-up something
+genname	Generate a random name based on the server members
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+```markdown
+NSFW Commands [9]
 
-### Jekyll Themes
+Command	Description
+lesbian	Random lesbian [Anime]
+lewdjeko	Random lewd neko [Anime]
+blowjob	Random blowjob [Anime]
+tits	Random tits [Anime]
+boobs	Random boobs [Anime]
+hentai	Random hentai [Anime]
+feet	Random feet [Anime]
+erofeet	Random erotic feet [Anime]
+anal	Random anal [Anime]
+```
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/MANOTEX/Nocturne_pages/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+```markdown
+Account Management Commands [12]
 
-### Support or Contact
+Command	Description
+set-pfp (url)	Set the specified url as profile picture [Must have password set in config.json file]
+btcstream	Stream current btc price
+pfpsteal (user)	Allows you to steal mentioned user profile picture [Must have password set in config.json file]
+blank	Turns your name and profile picture blank
+hypesquad (house)	Allows you to change your hypesquad (ie: !hypesquad bravery)
+fakenet (type) [name]	Allows you to spoof connections in your profile (ie: !fakenet skype Nocturne)
+steal-all-pfp	Steal all the pfps in the server
+stream (message)	Stream that message in your profile
+watching (message)	Add a watching status with that message in your profile
+listening (message)	Add a listening status with that message in your profile
+game (message)	Add a game status with that message in your profile
+masscon (type) (amount) (name)	Add a big amount of connections to your profile (ie: !masscon skype 5 Nocturne)
+```
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+```markdown
+Fun & Social Commands [18]
+
+Command	Description
+fox	Random fox image
+dog	Random dog image
+cat	Random cat image [Must have cat api key set in config.json file]
+minesweeper	Play minesweeper in the discord chat
+dick (user)	Display the mentioned user dick size
+rainbow (role)	Cycle colors in the role you specify
+8ball (question)	Answers your question
+joke	Drops a random joke in the chat
+slot	Play slot machine in the discord chat
+topic	Start a random topic to keep the chat going
+wyr	Start a 'what would you rather' topic in the chat
+feed (user)	Feed the mentioned user
+tickle (user)	Tickle the mentioned user
+slap (user)	Slap the mentioned user
+hug (user)	Hug the mentioned user
+smug (user)	Smug at the mentioned user
+pat (user)	Pat the mentioned user
+kiss (user)	Kiss the mentioned user
+```
+
+```markdown
+Cryptocurrency Commands [2]
+Command	Description
+btc	Display current Bitcoin price
+eth	Display current Ethereum price
+```
+
+```markdown
+Encryption & Decryption Commands [2]
+Command	Description
+encode (string)	Encode a string to base64 ascii
+decode (string)	Decode a string from base64 to regular text
+```
+
+```markdown
+Util Commands [7]
+Command	Description
+bitly (link)	Shorten ur link using bitly [Must have bitly api key set in config.json file]
+tinyurl (link)	Shorten ur link using tinyurl
+weather (city)	Lookup weather for the specified city
+backup-f	Backup your friends name and discrim
+auto-bump (channel id)	Automatically bump server to disboard.org [Needs the Disboard to be in the server]
+mac (mac)	Lookup a bit of info about a MAC (ie: !mac xx:xx:xx:xx:xx:xx)
+copy	Copies guild channels, categories, voice channels and makes them in a new on
+```
+```markdown
+Raiding Commands [9]
+Command	Description
+destroy	Ban, delete roles, delete channels, edit guild info, mass create channels All in one!
+dmall (messsage)	Messages every user in that guild with a sleep time of 10 seconds for every user [Might get you disabled]
+massban	Ban all the users in that guild
+masskick	Kick all the users in that guild
+massrole	Mass create roles
+masschannel	Mass create channels
+delroles	Delete all the roles
+delchannels	Delete all the channels
+massunban	Unban every member
+```
