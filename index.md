@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Nocturne Self-Bot
 
 You can use the [editor on GitHub](https://github.com/MANOTEX/Nocturne_pages/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
